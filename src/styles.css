@@ -1,9 +1,7 @@
 .body {
-  background-image: url(images/backgroundPhoto.jpg);
-  background-size: cover;
-  background-color: rgba(148, 145, 145, 0.097);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
+  /* background-image: url(images/backgroundPhoto.jpg); */
+  background-color: rgb(2, 2, 30);
+
 }
 
 .container {
@@ -90,13 +88,66 @@
   font-weight: bold;
 }
 
+@media (max-width: 680px) {
+  .title {
+    font-size: 75px;
+  }
+
+  span {
+    font-size: 24px;
+  }
+
+  .main h2 {
+    font-size: 40px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
+
 @media (max-width: 618px) {
   .title {
     font-size: 60px;
   }
 
   .main h2 {
-    font-size: 28px;
+    font-size: 35px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 490px) {
+  .title {
+    font-size: 55px;
+  }
+
+  .main h2 {
+    font-size: 32px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 460px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .main h2 {
+    font-size: 30px;
   }
 
   .main {
