@@ -120,3 +120,17 @@
   }
 }
 
+@media (max-width: 370px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
