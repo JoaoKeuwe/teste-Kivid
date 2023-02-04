@@ -1,7 +1,9 @@
 .body {
-  /* background-image: url(images/backgroundPhoto.jpg); */
-  background-color: rgb(2, 2, 30);
-
+  background-image: url(images/backgroundPhoto.jpg);
+  background-size: cover;
+  background-color: rgba(148, 145, 145, 0.097);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -11,6 +13,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 
 .title {
   font-size: 85px;
