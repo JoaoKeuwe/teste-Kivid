@@ -89,3 +89,34 @@
   margin-bottom: 16px;
   font-weight: bold;
 }
+
+@media (max-width: 618px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 415px) {
+  .title {
+    font-size: 45px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+}
+
