@@ -13,3 +13,20 @@
   align-items: center;
   flex-direction: column;
 }
+
+.title {
+  font-size: 85px;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  letter-spacing: 2px;
+  animation: fliptitle 2s;
+}
+
+@keyframes fliptitle {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
