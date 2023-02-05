@@ -14,6 +14,9 @@
   flex-direction: column;
 }
 
+.toast-message {
+  width: 15vw;
+}
 
 .title {
   font-size: 85px;
@@ -27,6 +30,7 @@
   from {
     transform: rotateX(90deg);
   }
+
   to {
     transform: rotateX(0deg);
   }
@@ -86,6 +90,7 @@
   margin: 16px 0;
   font-size: 39px;
 }
+
 .main span {
   margin-bottom: 16px;
   font-weight: bold;
