@@ -70,4 +70,4 @@ https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-
 <br>
 
 ## Deploy do projeto
-Acesse: [Keuwe-Blog](https://keuweblog.netlify.app/)
+Acesse: [Buscador de CEP](https://cepsearchkivid.netlify.app/) 🏠
