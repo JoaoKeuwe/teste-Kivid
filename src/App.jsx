@@ -11,14 +11,14 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [input, setInput] = useState("");
   const [cep, setCep] = useState({});
-  const notify = (message) => toast.warning(message, {
+  const notify = (message) => toast.dark(message, {
     position: toast.POSITION.TOP_RIGHT,
     className: 'toast-message',
   });
 
   async function handleSearch() {
     if (input === "") {
-      notify('Preencha um CEP');
+      notify('⛔ Preencha um CEP');
     } else {
 
       try {
@@ -27,7 +27,7 @@ function App() {
         setInput("");
         console.log(response);
       } catch {
-        notify("Preencha um CEP válido ");
+        notify("🚫 Preencha um CEP válido ");
         setInput("");
       }
     }

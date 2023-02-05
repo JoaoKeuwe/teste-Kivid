@@ -16,9 +16,10 @@
 }
 
 /* estilizando elemento do toastify  */
-.toast-message {
-  width: 15vw;
+.Toastify__toast {
+  width: 270px;
 }
+
 
 .title {
   font-size: 85px;
@@ -100,8 +101,14 @@
 }
 
 /* Fazendo a responsividade mobile  */
+@media (max-width: 1030px) {
+  .Toastify__toast {
+    width: 220px;
+  }
+}
 
-@media (max-width: 680px) {
+
+@media (max-width: 690px) {
   .title {
     font-size: 75px;
   }
@@ -118,6 +125,11 @@
     width: 80%;
     min-height: 250px;
   }
+
+  .Toastify__toast {
+    width: 200px;
+  }
+
 }
 
 @media (max-width: 618px) {
@@ -133,9 +145,14 @@
     width: 80%;
     min-height: 250px;
   }
+
+  .Toastify__toast {
+    width: 190px;
+  }
+
 }
 
-@media (max-width: 490px) {
+@media (max-width: 500px) {
   .title {
     font-size: 55px;
   }
@@ -154,7 +171,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+
+}
+
 @media (max-width: 460px) {
+
   .title {
     font-size: 50px;
   }
@@ -167,9 +189,13 @@
     width: 80%;
     min-height: 250px;
   }
+
+  .Toastify__toast {
+    width: 180px;
+  }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 420px) {
   .title {
     font-size: 45px;
   }
@@ -182,9 +208,13 @@
     width: 80%;
     min-height: 250px;
   }
+
+  .Toastify__toast {
+    width: 170px;
+  }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
   .title {
     font-size: 40px;
   }
@@ -196,5 +226,9 @@
   .main {
     width: 80%;
     min-height: 250px;
+  }
+
+  .Toastify__toast {
+    width: 160px;
   }
 }
