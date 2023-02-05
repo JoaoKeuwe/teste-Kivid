@@ -21,7 +21,8 @@
 - [API do ViaCep](https://viacep.com.br/)
 - [ReactJs](https://pt-br.reactjs.org/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Google fonts | Icons](https://fonts.google.com/)
+- [Google fonts Icons](https://fonts.google.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 
 
 # Sobre o que foi desenvolvido no projeto:
