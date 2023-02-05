@@ -210,7 +210,8 @@
   }
 
   .Toastify__toast {
-    width: 170px;
+    width: 200px;
+    font-size: 14px;
   }
 }
 
@@ -229,6 +230,40 @@
   }
 
   .Toastify__toast {
-    width: 160px;
+    width: 200px;
+    font-size: 14px;
   }
 }
+
+@media (max-width: 330px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .main h2 {
+    display: none;
+  }
+
+  .main {
+    display: none;
+  }
+
+  .Toastify__toast {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  input  {
+    display: none;
+  }
+
+  .buttonSearch {
+    display: none;
+  }
+
+  .containerInput {
+    display: none;
+  }
+}
+
+
