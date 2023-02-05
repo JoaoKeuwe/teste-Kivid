@@ -2,14 +2,23 @@ import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import api from "./services/api";
 import "./styles.css";
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   const [input, setInput] = useState("");
   const [cep, setCep] = useState({});
+  const notify = (message) => toast.warning(message, {
+    position: toast.POSITION.TOP_RIGHT,
+    className: 'toast-message',
+
+  });
 
   async function handleSearch() {
     if (input === "") {
-      alert("preencha algum cep!");
-    }
+      notify('Preencha um CEP');
+    } else {
 
     try {
       const response = await api.get(`${input}/json`);
@@ -17,14 +26,14 @@ function App() {
       setInput("");
       console.log(response);
     } catch {
-      alert("Ops erro ao buscar aqui");
+      notify("Preencha um CEP válido ");
       setInput("");
     }
   }
-
+}
   return (
     <div className="container">
-      <h1 className="title">Buscador de Cep</h1>
+      <h1 className="title">Buscador de CEP</h1>
 
       <div className="containerInput">
         <input
@@ -35,10 +44,11 @@ function App() {
         />
 
 
-        <button className="buttonSearch" onClick={handleSearch}>
+        <button className="buttonSearch" onClick={handleSearch} >
           <FiSearch size={25} color="#fff" />
         </button>
       </div>
+      <ToastContainer />
 
       {Object.keys(cep).length > 0 && (
         <main className="main">
