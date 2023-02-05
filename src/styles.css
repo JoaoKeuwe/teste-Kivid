@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
 }
 
+/* estilizando onde aparece as informações como cep/rua  */
 .container {
   height: 100vh;
   display: flex;
@@ -14,6 +15,7 @@
   flex-direction: column;
 }
 
+/* estilizando elemento do toastify  */
 .toast-message {
   width: 15vw;
 }
@@ -25,7 +27,7 @@
   letter-spacing: 2px;
   animation: fliptitle 2s;
 }
-
+/* fazendo a animação inicial do titulo da pagina  */
 @keyframes fliptitle {
   from {
     transform: rotateX(90deg);
@@ -36,6 +38,7 @@
   }
 }
 
+/* input onde são colocadas o CEP  */
 .containerInput {
   background-color: rgba(150, 149, 149, 0.32);
   padding: 15px;
@@ -73,7 +76,7 @@
 .buttonSearch:hover {
   transform: scale(1.2);
 }
-
+/* card onde ficam preecnhidas as informações  */
 .main {
   display: flex;
   justify-content: center;
@@ -95,6 +98,8 @@
   margin-bottom: 16px;
   font-weight: bold;
 }
+
+/* Fazendo a responsividade mobile  */
 
 @media (max-width: 680px) {
   .title {
