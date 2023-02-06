@@ -235,9 +235,33 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 340px) {
   .title {
     font-size: 35px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
+
+  .Toastify__toast {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .title {
+    font-size: 30px;
   }
 
   .main h2 {
