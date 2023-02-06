@@ -1,13 +1,13 @@
-<h1 align='center' > Projeto Buscador De CEP 🏠
+<h1 align='center' >
+
+Projeto Buscador De CEP 🏠
+
 <h1/>
 
-<br>
-
-#### (📱Caso esteja pelo celular é so clicar no link abaixo📱)
+## (📱Caso esteja pelo celular é so clicar no link abaixo📱)
 
 
-
-https://user-images.githubusercontent.com/91097315/216799921-965f5fc1-84aa-4c53-8939-9ae9b68acce3.mp4
+https://user-images.githubusercontent.com/91097315/216840833-8267c803-67c8-4635-b324-921c34056032.mp4
 
 
 
@@ -19,13 +19,13 @@ https://user-images.githubusercontent.com/91097315/216799921-965f5fc1-84aa-4c53-
 
 - Desenvolver uma tela de consulta de CEP ao VIACEP, onde, ao digitar o CEP, deverá ser exibido o endereço completo, consultando a API do VIACEP (ou qualquer outra disponível).
 
-
 ## Tecnologias utilizadas:
 
 - [API do ViaCep](https://viacep.com.br/)
 - [ReactJs](https://pt-br.reactjs.org/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Google fonts Icons](https://fonts.google.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Google fonts | Icons](https://fonts.google.com/)
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 
 
@@ -39,6 +39,8 @@ https://user-images.githubusercontent.com/91097315/216799921-965f5fc1-84aa-4c53-
 🎨 Como não nos foi passado nenhum template para seguir o design do site foi totalmente pensado e feito por mim através de CSS.
 
 🚩 Foi também utilizada a API do  ViaCep como mencionado acima, para que pudesse ser feito a buca através do input colocado no site.
+
+🧪 Foram executados testes para que a aplicação possa ter uma maior confiabilidade e desempenho.
 
 
 ## Guia de instalação do projeto para a sua máquina !
@@ -59,9 +61,12 @@ https://user-images.githubusercontent.com/91097315/216799921-965f5fc1-84aa-4c53-
  # Caso não abra direto em seu navegador digitar no campo de busca 
  $ http://localhost:3000/
  
+ # Comando caso queira executar os testes
+ $ npm run test
+ 
 
 ```
 <br>
 
 ## Deploy do projeto
-Acesse: [Keuwe-Blog](https://keuweblog.netlify.app/)
+Acesse: [Buscador de CEP](https://cepsearchkivid.netlify.app/) 🏠
